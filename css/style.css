@@ -252,6 +252,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-width: 930px) {
+  .header {
+    overflow: hidden;
+  }
   .header__logo {
     z-index: 5;
     position: relative;
@@ -344,6 +347,7 @@ h1, h2, h3, h4, h5, h6 {
     right: 10px;
     width: 30px;
     height: 18px;
+    overflow: hidden;
     cursor: pointer;
   }
   .icon-menu span {
@@ -1423,7 +1427,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 930px) {
   .popular.popular {
-    margin: 0 0 60px 0;
+    margin: 30px 0 60px 0;
   }
   .popular .popular__mainrow {
     -webkit-box-orient: vertical;
@@ -1443,18 +1447,18 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
   }
   .popular__column {
-    margin: 10px 15px 10px 15px;
+    margin: 10px 15px;
   }
   .popular__dishname {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 14px;
+    line-height: 24px;
   }
   .popular__info {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 24px;
   }
   .popular__btn {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 24px;
     text-align: center;
   }
@@ -2261,6 +2265,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color: #FFFFFF;
   margin: 0 0 34px 0;
+  text-align: center;
 }
 .footer__hours_title:before {
   display: block;
